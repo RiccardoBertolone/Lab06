@@ -44,6 +44,10 @@ public class Citta {
 	public void increaseCounter() {
 		this.counter += 1;
 	}
+	
+	public int getUmidita(int i) {
+		return rilevamenti.get(i).getUmidita() ;
+	}
 
 	@Override
 	public int hashCode() {
