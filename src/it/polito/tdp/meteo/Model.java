@@ -55,7 +55,7 @@ public class Model {
 			i++;
 		}
 
-		System.out.println(costoMin);
+		// System.out.println(costoMin);
 		return result.trim();
 	}
 
@@ -146,5 +146,11 @@ public class Model {
 				
 		return score;
 	}
+
+	public int getCostoMin() {
+		return costoMin;
+	}
+	
+	
 
 }

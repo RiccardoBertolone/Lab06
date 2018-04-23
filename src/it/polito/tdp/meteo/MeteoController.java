@@ -42,6 +42,7 @@ public class MeteoController {
 			Integer i = boxMese.getValue() ;
 			String result = "Sequenza ottimale:\n";
 			result+=model.trovaSequenza(i) ;
+			result+="\nCosto ottimale: "+model.getCostoMin() ;
 			txtResult.setText(result);
 		}
 		catch (Exception e) {
